@@ -2,6 +2,8 @@
 
 This is the official one-paper-multiple-typesetting-styles implementation. 
 
+LaTeX is initially designed to make typesetting easier by separating the content and the typesetting. However, when a draft is ready for submission or a paper is rejected without being sent for review, it usually takes authors plenty of time to make the draft or the paper adapted to the template of the target journal or conference, which is quite inconvenient. Thus, we want to further separate the content and the typesetting. 
+
 To track your LaTeX, please refer to [LaTeXChecker](https://github.com/BatchClayderman/LaTeXChecker). 
 
 ## Content
