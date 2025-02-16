@@ -23,5 +23,6 @@ Currently, five well-acknowledged templates are deployed. Users should only chan
 - IEEEConference
 - IEEEJournal
 - Springer
+- Wiley
 
-Please note that it is required to **specifically change the title in the Springer template** while modifying the ``./Content/title.tex`` file. 
+Please note that it is required to **specifically change the title in the Springer and the Wiley templates** while modifying the ``./Content/title.tex`` file. 
