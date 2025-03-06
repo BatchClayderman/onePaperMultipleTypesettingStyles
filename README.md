@@ -16,7 +16,7 @@ Please include your figures (with their corresponding sources like ``.pptx`` if 
 
 ## Building
 
-Currently, five well-acknowledged templates are deployed. Users should only change the packages and authors' information to adapt to the specified templates. 
+Currently, six well-acknowledged templates are deployed. Users should only change the packages and authors' information to adapt to the specified templates. 
 
 - ACMConference
 - Elsevier
