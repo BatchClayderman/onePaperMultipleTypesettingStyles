@@ -16,13 +16,18 @@ Please include your figures (with their corresponding sources like ``.pptx`` if 
 
 ## Building
 
-Currently, six well-acknowledged templates are deployed. Users should only change the packages and authors' information to adapt to the specified templates. 
+Currently, seven well-acknowledged templates are deployed. Users should only change the packages and authors' information to adapt to the specified templates. 
 
 - ACMConference
 - Elsevier
 - IEEEConference
 - IEEEJournal
 - Springer
+- TSP
 - Wiley
 
+## Caution
+
 Please note that it is required to **specifically change the title in the Springer and the Wiley templates** while modifying the ``./Content/title.tex`` file. 
+
+Please note that it is required to **specifically change the abstract and keywords** while modifying the ``./Content/title.tex`` and ``./Content/keyword.tex`` files. 
