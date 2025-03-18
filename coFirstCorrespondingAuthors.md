@@ -8,7 +8,7 @@ See [https://blog.csdn.net/weixin_45726033/article/details/143378135](https://bl
 
 ## Elsevier
 
-The best-looking template, with no objections accepted. 
+This must be the most beautiful template, with no objections accepted. 
 
 Insert author information between ``\title`` and ``\begin{abstract}``. The square brackets after ``\author`` are followed by the author's unit, which supports multi-unit typesetting. Use ``\fnmark[1]`` to mark the co-first author, and ``\cormark[1]`` to mark the corresponding author; use ``\nonumnote`` to explain the corresponding note, and use ``\fntext[1]`` to explain the co-author note. In the Elsevier template, the unit will be displayed as a letter, and the co-author will be displayed as a number. 
 
@@ -171,7 +171,7 @@ The style is similar to that of IEEE conferences, but slightly different. If you
 }
 ```
 
-## ACM
+## ACM Conference
 
 Similarly, use the following between ``\title`` and ``\maketitle``. 
 
@@ -235,6 +235,41 @@ Similarly, place the following between ``\maketitle`` and ``\begin{abstract}`` t
 \renewcommand{\thefootnote}{}
 \footnotetext{\textsuperscript{\dag} Co-first authors contributed equally to this work. }
 \footnotetext{* Corresponding author(s): Liu Zhao (\url{liuzhao@gmail.com}) and Qi Sun (\url{qisun@gmail.com}). }
+```
+
+## TSP
+
+The style of TSP is similar to that of Elsevier. The template actively offers marking ways of co-first and co-corresponding authors. Use the following between ``\Title`` and ``\abstract`` to achieve unity and common communication.
+
+```
+\newcommand{\orcidauthorA}{0000-0000-0000-0003}
+\newcommand{\orcidauthorB}{0000-0000-0000-0004}
+\newcommand{\orcidauthorC}{0000-0000-0000-0005}
+\newcommand{\orcidauthorD}{0000-0000-0000-0006}
+\newcommand{\orcidauthorE}{0000-0000-0000-0007}
+
+\Author{
+	San Zhang\textsuperscript{1,2,3,\#}\orcidA{}, 
+	Si Li\textsuperscript{1,2,\#}\orcidB{}, 
+	Wu Wang\textsuperscript{1}\orcidC{}, 
+	Liu Zhao\textsuperscript{1,*}\orcidD{}, 
+	and Qi Sun\textsuperscript{1,*}\orcidE{}
+}
+
+\AuthorNames{San Zhang, Si Li, Wu Wang, et al. }
+
+\address{%
+	\textsuperscript{1} Department/College/School/Faculty/Institute/... A, University A, City A, Code A, Country A
+		
+	\textsuperscript{2} Department/College/School/Faculty/Institute/... B, University B, City B, Code B, Country B
+	
+	\textsuperscript{3} Department/College/School/Faculty/Institute/... C, University C, City C, Code C, Country C
+}
+
+\corres{Corresponding Author(s): Liu Zhao and Qi Sun. Email: liuzhao@gmail.com and qisun@gmail.com}
+
+\firstnote{These authors contributed equally to this work} 
+\secondnote{}
 ```
 
 ---
