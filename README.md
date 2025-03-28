@@ -31,3 +31,26 @@ Currently, seven well-acknowledged templates are deployed. Users should only cha
 Please note that it is required to **specifically change the title in the Springer and the Wiley templates** while modifying the ``./Content/title.tex`` file. 
 
 Please note that it is required to **specifically change the abstract and keywords** while modifying the ``./Content/title.tex`` and ``./Content/keyword.tex`` files. 
+
+## Citation
+
+If you wish to cite this work, please use the following BibTeX. 
+
+```
+@inproceedings{liu2024efficient,
+  title={An efficient information retrieval and tracking algorithm for multiple typesetting styles of the same paper},
+  author={Liu, Yingying and Li, Yuan and Tang, Jiyue and Ji, Tong and Xu, Xiaoyu and Luo, Yuxin and Lin, Yifeng and Yang, Yuer and Wu, Yubing},
+  booktitle={2024 7th International Conference on Data Science and Information Technology (DSIT)},
+  pages={1--6},
+  year={2024},
+  organization={IEEE}
+}
+```
+
+## Forgetness
+
+The paper mentioned above is the official academic paper that corresponds to this repository. It has already passed peer review, been published by the IEEE publisher, and been indexed by the EI database. 
+
+People who typeset their papers based on this repository may forget to rewrite their Data Availability statements, which results in guiding reviewers to this repository. 
+
+In these situations, we would appreciate it if reviewers could ask the authors for correct Data Availability statements instead of rejecting papers directly. 
