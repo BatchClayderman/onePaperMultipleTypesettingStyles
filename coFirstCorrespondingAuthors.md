@@ -239,8 +239,7 @@ Similarly, place the following between ``\maketitle`` and ``\begin{abstract}`` t
 
 ## TSP
 
-The style of TSP is similar to that of Elsevier. The template actively offers marking ways of co-first and co-corresponding authors. Use the following between ``\Title`` and ``\abstract`` to achieve unity and common communication.
-
+The style of TSP is similar to that of Elsevier. The template actively offers marking ways of co-first and co-corresponding authors. Use the following between ``\Title`` and ``\abstract`` to achieve co-first and co-coresponding authors. 
 ```
 \newcommand{\orcidauthorA}{0000-0000-0000-0003}
 \newcommand{\orcidauthorB}{0000-0000-0000-0004}
@@ -270,6 +269,32 @@ The style of TSP is similar to that of Elsevier. The template actively offers ma
 
 \firstnote{These authors contributed equally to this work} 
 \secondnote{}
+```
+
+## MDPI
+
+The style of MDPI is close to that of TSP. The template actively offers marking ways of co-first and co-corresponding authors. Use the following between ``\Title`` and ``\abstract`` to achieve co-first and co-coresponding authors. 
+
+```
+\newcommand{\orcidauthorA}{0000-0000-0000-0003} % Add \orcidA{} behind the author's name
+\newcommand{\orcidauthorB}{0000-0000-0000-0004} % Add \orcidB{} behind the author's name
+\newcommand{\orcidauthorC}{0000-0000-0000-0005} % Add \orcidC{} behind the author's name
+\newcommand{\orcidauthorD}{0000-0000-0000-0006} % Add \orcidD{} behind the author's name
+\newcommand{\orcidauthorE}{0000-0000-0000-0007} % Add \orcidE{} behind the author's name
+
+\Author{San Zhang$^{1,2,3}$\orcidA{}, Si Li$^{1,2}$\orcidB{}, Wu Wang$^1$\orcidC{}, Liu Zhao$^1$\orcidD{}*, and Qi Sun$^1$\orcidE{}*}
+
+\AuthorNames{San Zhang, Si Li, Wu Wang, Liu Zhao, Qi Sun}
+
+\address{%
+	$^{1}$ \quad Department/College/School/Faculty/Institute/... A, University A, City A, Country/Region A;\\
+	$^{2}$ \quad Department/College/School/Faculty/Institute/... B, University B, City B, Country/Region B;\\
+	$^{3}$ \quad Department/College/School/Faculty/Institute/... C, University C, City C, Country/Region C;
+}
+
+\corres{Correspondence: liuzhao@gmail.com; qisun@gmail.com; }
+
+\firstnote{Current address: Department/College/School/Faculty/Institute/... A, University A, City A, Country/Region A. }
 ```
 
 ---

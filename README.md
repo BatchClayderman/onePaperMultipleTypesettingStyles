@@ -22,6 +22,7 @@ Currently, seven well-acknowledged templates are deployed. Users should only cha
 - Elsevier
 - IEEEConference
 - IEEEJournal
+- MDPI
 - Springer
 - TSP
 - Wiley
