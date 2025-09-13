@@ -353,7 +353,7 @@
 \LoadClass[twoside,fleqn,onecolumn]{article}%
 
 \usepackage{etex}%
-\reserveinserts{28}% included etex package and \reserveinserts{...} to avoid no room for \newinserts, \newcounts or \newskips etc.
+%\reserveinserts{28}% included etex package and \reserveinserts{...} to avoid no room for \newinserts, \newcounts or \newskips etc.
 \RequirePackage{graphicx,multicol}%
 \RequirePackage{multirow}%
 \RequirePackage{cuted}%
